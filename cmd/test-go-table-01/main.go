@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"gonum.org/v1/hdf5"
+	hdf5 "github.com/JackHanni/hdf5-go"
 )
 
 const (

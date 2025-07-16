@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-// Package hdf5 provides access to the HDF5 C library.
-package hdf5 // import "gonum.org/v1/hdf5"
+// package hdf5go provides access to the HDF5 C library.
+package hdf5go // import "github.com/JackHanni/hdf5-go"
 
 // #include "hdf5.h"
 import "C"

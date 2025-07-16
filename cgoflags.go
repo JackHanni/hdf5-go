@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-package hdf5
+package hdf5go
 
 // #cgo CFLAGS: -I${SRCDIR}/../../../../third_party/include
 // #cgo LDFLAGS: -L${SRCDIR}/../../../../third_party/lib -lhdf5 -lhdf5_hl
