@@ -4,7 +4,7 @@
 
 package hdf5go
 
-// #cgo CFLAGS: -I${SRCDIR}/../../../../third_party/include
-// #cgo LDFLAGS: -L${SRCDIR}/../../../../third_party/lib -lhdf5 -lhdf5_hl
+// #cgo CFLAGS: -I${SRCDIR}/../../../../third_party/hdf5/include
+// #cgo LDFLAGS: -L${SRCDIR}/../../../../third_party/hdf5/lib -lhdf5 -lhdf5_hl
 // #include "hdf5.h"
 import "C"
